@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+div {
+    display: inline-block;
+}
+.logo {
+    float: left;
+    width: 25%;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+.navbar {
+    float: right;
+    margin-top: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 5px;
+    color: #fff;
+    font-family: "Times New Roman";
+    font-weight: 500;
+    font-size: 16px;
+}
+.logbutton {
+    margin: 0 40px 0 60px;
+}
+.logbutton a {
+    background-color: rgb(65, 138, 209);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.logbutton a:hover {
+    background: #fff;
+    color: rgb(65, 138, 209);
+    transition: 0.8s;
+}
+.contain {
+    float: left;
+    width: 40%;
+    margin-left: 70px;
+}
+.contain h1 {
+    font-family: "Times New Roman";
+    font-weight: 600;
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+.contain p {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-weight: 550;
+    font-size: 18px;
+    color: #fff;
+}
+.contain a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.contain a:hover {
+    background: rgb(65, 138, 209);
+    color: #fff;
+    transition: 0.6s;
+}
+.img {
+    display: flex;
+    height: 380px;
+    position: relative;
+    width: 60px;
+    margin-top: 80px;
+    padding-left: 450px;
+    justify-content: flex-end;
+}
